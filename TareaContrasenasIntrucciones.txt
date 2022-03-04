@@ -1,0 +1,20 @@
+Utilizando John the Ripper en Kali, ataca los siguientes archivos de contraseñas. Los tres tienen hashes en SHA-256.
+
+1. auditoriaSushiMagico – representa una base de contraseñas de un sistema pequeño. No tenemos idea de la información personal de los usuarios. Debemos extraer el mayor número de contraseñas de la base en el menor tiempo posible, tenemos tres días para entregar el resultado del análisis. El cliente es un restaurante de sushi independiente "Sushi Magico" y el dueño está preocupado de que sus empleados utilizan contraseñas débiles para acceder al correo del negocio. Nos ha entregado su archivo con los hashes de las contraseñas.
+- Detalla el ataque utilizado (configuración de John the Ripper)
+- Determina de las contraseñas descifradas, que tan robustas son
+- ¿Cuántas contraseñas encontraste?
+- ¿Cuánto tiempo te tardaste en encontrarlas?
+- ¿Qué recomendaciones le harías al dueño de Sushi Mágico?
+
+2. muestraInstagram – este archivo contiene 5 contraseñas, unas muy robustas y otras muy simples. ¿Qué tipo de ataque utilizarías?
+- Detalla el ataque utilizado (configuración de John the Ripper)
+- Determina de las contraseñas descifradas, que tan robustas son
+- ¿Cuántas contraseñas encontraste?
+- ¿Cuánto tiempo te tardaste en encontrarlas?
+
+3. ataqueDirigido – en este ataque hay una sola contraseña en el archivo. Utiliza el modo PRINCE de John the Ripper para averiguar la contraseña. 
+Sabemos lo siguiente del usuario: es el director de finanzas de la empresa de contabilidad Reyes Asociados, tiene una cuenta de banco en HSBC. Tiene una hija Isabel que nació en abril de 2002. Es divorciado, su divorcio se finalizó en 2010. Compró un departamento nuevo y ahora vive en la colonia del Valle, antes vivía en la Roma. Escucha la estación 100.1 FM porque le gusta la música que tocan (según el que lava el coche en el estacionamiento de la empresa).
+- Detalla la configuración utilizada
+- Entrega el diccionario creado para el modo PRINCE
+- Si lograste adivinar la contraseña, ¿Qué tan robusta es? ¿Qué recomendación le darías al usuario para cuidar sus datos? 
